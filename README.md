@@ -1,14 +1,14 @@
 # jsoncli
 
-`jsoncli` is a versatile command-line interface (CLI) tool designed to simplify the handling and manipulation of JSON files. With a range of features, including validation, formatting, merging, and the ability to view JSON arrays' first and last rows, `jsoncli` is an essential utility for developers and data analysts working with JSON data.
+`jsoncli` is a versatile command-line interface (CLI) tool designed to simplify the handling and manipulation of JSON files. With a range of features including validation, formatting, merging, and the ability to view the first and last rows of JSON arrays, `jsoncli` is an essential utility for developers and data analysts working with JSON data.
 
 ## Features
 
 - **Input JSON File**: Specify the path of the input JSON file using the `-input` flag.
-- **Output JSON File**: Define the output formatted JSON file path with the `-output` flag.
+- **Output JSON File**: Define the path for the output formatted JSON file with the `-output` flag.
 - **Validate JSON**: Validate the JSON file for correctness using the `-validate` flag.
 - **Format JSON**: Format the JSON file with indentation for better readability using the `-format` flag.
-- **Merge JSON Files**: Merge another JSON file using the `-merge` flag with the input file.
+- **Merge JSON Files**: Merge another JSON file with the input file using the `-merge` flag.
 - **Display First 5 Rows**: Display the first 5 rows of a JSON array with the `-head` flag.
 - **Display Last 5 Rows**: Display the last 5 rows of a JSON array with the `-tail` flag.
 
@@ -48,7 +48,7 @@
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/jsoncli.git
+    git clone https://github.com/harshita2234/jsoncli.git
     ```
 
 2. Build the CLI tool:
