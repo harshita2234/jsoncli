@@ -1,5 +1,7 @@
 # jsoncli
 
+![Go](https://img.shields.io/badge/Go-100%25-blue)
+
 `jsoncli` is a versatile command-line interface (CLI) tool designed to simplify the handling and manipulation of JSON files. With a range of features including validation, formatting, merging, and the ability to view the first and last rows of JSON arrays, `jsoncli` is an essential utility for developers and data analysts working with JSON data.
 
 ## Features
