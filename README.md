@@ -59,7 +59,7 @@
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes.
 
 ## License
 
