@@ -1,2 +1,66 @@
-# json-cli
-A versatile CLI tool for handling and manipulating JSON files. It offers validation, formatting, merging, and viewing the first and last rows of JSON arrays. Essential for developers and data analysts, this cli simplifies JSON data management with its comprehensive feature set.
+# jsoncli
+
+`jsoncli` is a versatile command-line interface (CLI) tool designed to simplify the handling and manipulation of JSON files. With a range of features, including validation, formatting, merging, and the ability to view JSON arrays' first and last rows, `jsoncli` is an essential utility for developers and data analysts working with JSON data.
+
+## Features
+
+- **Input JSON File**: Specify the path of the input JSON file using the `-input` flag.
+- **Output JSON File**: Define the output formatted JSON file path with the `-output` flag.
+- **Validate JSON**: Validate the JSON file for correctness using the `-validate` flag.
+- **Format JSON**: Format the JSON file with indentation for better readability using the `-format` flag.
+- **Merge JSON Files**: Merge another JSON file using the `-merge` flag with the input file.
+- **Display First 5 Rows**: Display the first 5 rows of a JSON array with the `-head` flag.
+- **Display Last 5 Rows**: Display the last 5 rows of a JSON array with the `-tail` flag.
+
+## Usage
+
+1. **Validate a JSON File**:
+    ```sh
+    ./jsoncli -input=path/to/input.json -validate
+    ```
+
+2. **Format a JSON File**:
+    ```sh
+    ./jsoncli -input=path/to/input.json -format
+    ```
+
+3. **Merge Two JSON Files**:
+    ```sh
+    ./jsoncli -input=path/to/input.json -merge=path/to/merge.json -output=merged.json
+    ```
+
+4. **Display the First 5 Rows of a JSON Array**:
+    ```sh
+    ./jsoncli -input=path/to/input.json -head
+    ```
+
+5. **Display the Last 5 Rows of a JSON Array**:
+    ```sh
+    ./jsoncli -input=path/to/input.json -tail
+    ```
+
+6. **Format and Validate a JSON File**:
+    ```sh
+    ./jsoncli -input=path/to/input.json -format -validate -output=formatted.json
+    ```
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/jsoncli.git
+    ```
+
+2. Build the CLI tool:
+    ```sh
+    cd jsoncli
+    go build -o jsoncli
+    ```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
